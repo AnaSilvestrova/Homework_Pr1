@@ -13,10 +13,10 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 
 if(firstNumber < secondNumber)
 {
-    Console.Write($"{firstNumber} меньше, чем {secondNumber}.");
+    Console.Write($"{firstNumber} меньшее число, {secondNumber} большее число.");
 }
 
 else
 {
-    Console.Write($"{firstNumber} больше, чем {secondNumber}.");
+    Console.Write($"{firstNumber} большее число, {secondNumber} меньшее число.");
 }
